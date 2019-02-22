@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite thread-count="1" verbose="5" name="Suite">
+
+<test name="BackBase_Create_NEW_Computer_Test_Chrome" >
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.BackBase.assignment.TestCases.CreateNEWComputerTest"></class>
+</classes>
+</test>
+
+<test name="BackBase_Edit_Existing_Computer_Test_Chrome" >
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.BackBase.assignment.TestCases.EditExistingComputer"></class>
+</classes>
+</test>
+
+<test name="BackBase_Search_Existing_Computer_Test_Chrome" >
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.BackBase.assignment.TestCases.SearchExistingComputer"></class>
+</classes>
+</test>
+
+<test name="BackBase_Delete_Computer_Test_Chrome" >
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.BackBase.assignment.TestCases.DeleteExistingComputer"></class>
+</classes>
+</test>
+
+<test name="BackBase_Create_Computer_With_BlankField_Test_Chrome" >
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.BackBase.assignment.TestCases.CreateComputerWithBlankField"></class>
+</classes>
+</test>
+
+<test name="BackBase_Negative_Case_with_Invalid_Date_Test_Chrome" >
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.BackBase.assignment.TestCases.NegativeCasewithInvalidDate"></class>
+</classes>
+</test>
+
+</suite>
